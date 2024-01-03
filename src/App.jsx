@@ -11,7 +11,7 @@ function App() {
     setSelectedTopic(selectedValue);
   };
   return (
-    <div>
+    <>
       <Header />
       <main>
         <section id="core-concepts">
@@ -65,7 +65,7 @@ function App() {
           </section>
         </section>
       </main>
-    </div>
+    </>
   );
 }
 
